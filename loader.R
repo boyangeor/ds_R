@@ -13,4 +13,3 @@ loader <- function(path) {
         source(f)
 }
 loader(path = "~/ds_R")
-

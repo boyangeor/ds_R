@@ -58,32 +58,3 @@ factorize <- function(dm, r, lambda, eps, epochs, seed) {
   
   list(L=L, R=R)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
