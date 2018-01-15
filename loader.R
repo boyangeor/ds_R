@@ -1,6 +1,6 @@
 loader <- function(path) {
 
-  for(d in list.dirs(path))
+  for (d in list.dirs(path))
     for (f in list.files(d, full.names = T))
 
       # If the file has .R extension AND does NOT contain "_nl"
@@ -13,4 +13,3 @@ loader <- function(path) {
         source(f)
 }
 loader(path = "~/ds_R")
-
